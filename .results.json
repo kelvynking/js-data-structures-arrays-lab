@@ -2,12 +2,12 @@
   "stats": {
     "suites": 6,
     "tests": 4,
-    "passes": 2,
+    "passes": 3,
     "pending": 0,
-    "failures": 2,
-    "start": "2021-10-08T03:22:25.120Z",
-    "end": "2021-10-08T03:22:25.425Z",
-    "duration": 305
+    "failures": 1,
+    "start": "2021-10-08T03:23:23.342Z",
+    "end": "2021-10-08T03:23:23.654Z",
+    "duration": 312
   },
   "tests": [
     {
@@ -29,18 +29,12 @@
       "fullTitle": "index.js Array functions removeLast removes the last pet from the pets array",
       "duration": 1,
       "currentRetry": 0,
-      "err": {
-        "message": "expected [ 'Milo', 'Otis', 'Garfield' ] to have the same ordered members as [ 'Milo', 'Otis' ]",
-        "showDiff": true,
-        "actual": "[\n  \"Milo\"\n  \"Otis\"\n  \"Garfield\"\n]",
-        "expected": "[\n  \"Milo\"\n  \"Otis\"\n]",
-        "stack": "AssertionError: expected [ 'Milo', 'Otis', 'Garfield' ] to have the same ordered members as [ 'Milo', 'Otis' ]\n    at Context.<anonymous> (test/indexTest.js:30:28)\n    at processImmediate (node:internal/timers:464:21)"
-      }
+      "err": {}
     },
     {
       "title": "removes the First pet from the pets array",
       "fullTitle": "index.js Array functions removeFirst removes the First pet from the pets array",
-      "duration": 1,
+      "duration": 2,
       "currentRetry": 0,
       "err": {
         "message": "expected [ 'Milo', 'Otis', 'Garfield' ] to have the same ordered members as [ 'Otis', 'Garfield' ]",
@@ -54,22 +48,9 @@
   "pending": [],
   "failures": [
     {
-      "title": "removes the last pet from the pets array",
-      "fullTitle": "index.js Array functions removeLast removes the last pet from the pets array",
-      "duration": 1,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected [ 'Milo', 'Otis', 'Garfield' ] to have the same ordered members as [ 'Milo', 'Otis' ]",
-        "showDiff": true,
-        "actual": "[\n  \"Milo\"\n  \"Otis\"\n  \"Garfield\"\n]",
-        "expected": "[\n  \"Milo\"\n  \"Otis\"\n]",
-        "stack": "AssertionError: expected [ 'Milo', 'Otis', 'Garfield' ] to have the same ordered members as [ 'Milo', 'Otis' ]\n    at Context.<anonymous> (test/indexTest.js:30:28)\n    at processImmediate (node:internal/timers:464:21)"
-      }
-    },
-    {
       "title": "removes the First pet from the pets array",
       "fullTitle": "index.js Array functions removeFirst removes the First pet from the pets array",
-      "duration": 1,
+      "duration": 2,
       "currentRetry": 0,
       "err": {
         "message": "expected [ 'Milo', 'Otis', 'Garfield' ] to have the same ordered members as [ 'Otis', 'Garfield' ]",
@@ -92,6 +73,13 @@
       "title": "prepends a pet to the beginning of the pets array",
       "fullTitle": "index.js Array functions prepend prepends a pet to the beginning of the pets array",
       "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "removes the last pet from the pets array",
+      "fullTitle": "index.js Array functions removeLast removes the last pet from the pets array",
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     }
